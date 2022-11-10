@@ -1,0 +1,25 @@
+.news_menu_header {
+    background-image: url("/src/utils/news_background.png");
+    background-size: contain;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+}
+
+.news_card_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.news_menu_header p {
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+    color: white;
+}

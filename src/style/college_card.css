@@ -1,0 +1,51 @@
+.college_card:hover {
+    box-shadow: #f55b5b 0px 7px 29px 0px;
+    transform: translateY(-24px);
+}
+
+.college_card {
+    background-color: white;
+    height: 24rem;
+    border-radius: 8px;
+    transition: 0.4s;
+    width: 18rem;
+    margin: 2rem 2rem;
+}
+
+.college_card_body {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.college_card_photo_image {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    aspect-ratio: 16/10;
+}
+
+.college_card_logo_image {
+    height: 100px;
+    width: 100px;
+    transform: translate(0, -50px);
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px;
+    border: 0.5px solid rgb(139, 139, 139);
+}
+
+.college_card_name,
+.college_card_location {
+    position: relative;
+    bottom: 31px;
+}
+
+.college_card {
+    box-shadow: rgb(161, 213, 255) 0px 5px 15px;
+    background-color: white;
+}
+
+.btn {
+    position: relative;
+    bottom: 25px;
+}
